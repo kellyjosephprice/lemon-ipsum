@@ -2,9 +2,9 @@
 
 A Liz Lemon Lorem Ipsum text generator. Nerds!
 
-## Usage
+Hosted at [lemon-ipsum.com](https://lemon-ipsum.com).
 
-Navigate to [lemon-ipsum.com](https://lemon-ipsum.com).
+## Usage
 
 You can also request JSON or plain text from the API:
 
