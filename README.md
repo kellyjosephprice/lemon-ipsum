@@ -18,4 +18,4 @@ curl https://lemon-ipsum.com --header 'accept: text/plain'
 
 ## Attribution
 
-Definitely inspired by [`lemon-ipsum`](https://github.com/summitxd/lemon-ipsum) and also copied from there.
+Definitely inspired by, and also copied, from [`lemon-ipsum`](https://github.com/summitxd/lemon-ipsum).
