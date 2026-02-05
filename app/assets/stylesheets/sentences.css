@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Blair ITC Light";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("blair-itc-light-regular.otf") format("opentype");
+}
+
+:root {
+  --black: black;
+  --yellow: #ffffac;
+  --white: white;
+}
+
+body {
+  background-color: var(--black);
+}
+
+#lemon-ipsum {
+  max-width: 600px;
+  margin: 10em auto 0;
+  color: var(--white);
+  font-family: "Blair ITC Light", sans-serif;
+
+  h1 > :first-child {
+    color: var(--yellow);
+  }
+}
+
+#sentences {
+  font-family: sans-serif;
+}
