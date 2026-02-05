@@ -12,21 +12,39 @@
   --white: white;
 }
 
-body {
+body,
+html {
   background-color: var(--black);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #lemon-ipsum {
-  max-width: 600px;
-  margin: 10em auto 0;
+  box-sizing: border-box;
   color: var(--white);
+  display: flex;
+  flex-direction: column;
   font-family: "Blair ITC Light", sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 100%;
+  padding-top: 10em;
 
   h1 > :first-child {
     color: var(--yellow);
+  }
+
+  footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-bottom: 3em;
   }
 }
 
 #sentences {
   font-family: sans-serif;
+  flex-grow: 1;
 }
