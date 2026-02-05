@@ -1,24 +1,7 @@
-# README
+# Lemon Ipsum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Liz Lemon Lorem Ipsum text generator. Nerds!
 
-Things you may want to cover:
+## Attribution
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Definitely inspired by [`lemon-ipsum`](https://github.com/summitxd/lemon-ipsum) and also copied from there.
