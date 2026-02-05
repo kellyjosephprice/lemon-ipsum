@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: "lemon-ipsum"
+    runtime: ruby
+    plan: free
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "./bin/rails server"
+    envVars:
+      - key: RAILS_MASTER_KEY
+        sync: false # You'll provide this value on Blueprint creation
+      - key: WEB_CONCURRENCY
+        value: 2 # Recommended default
